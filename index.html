@@ -12,85 +12,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-    * {
-      box-sizing: border-box;
-      margin: 0px;
-      padding: 0px;
-    }
-
-    body {
-      background-color: hsl(212, 45%, 89%); 
-      font-family: 'Outfit', sans-serif;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .qr-box {
-      background-color: hsl(0, 0%, 100%);
-      border-radius: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      max-width: 320px;
-      padding: 16px;
-      gap: 24px;
-    }
-
-    .qr-box img {
-      border-radius: 20px;
-      width: 100%;
-      aspect-ratio: 1 / 1;
-    }
-
-    .qr-text {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .qr-text h1 {
-      font-size: 22px;
-      font-weight: 700;
-      letter-spacing: 0px;
-      line-height: 120%;
-      color: hsl(218, 44%, 22%);
-    }
-
-    .qr-text p {
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 140%;
-      letter-spacing: 0.2px;
-      color: hsl(216, 15%, 48%);
-      padding-bottom: 24px;
-    }
-    
-  </style>
 </head>
 <body>
-  <div class="qr-box">
-    <div class="qr-image">
-      <img src="images/image-qr-code.png" alt="visit frontendmentor.io website">
+  <div class="content-wrapper">
+    <div class="qr-box">
+      <img src="images/image-qr-code.png" alt="QR code: scan to open frontendmentor.io">
+      <div class="qr-text">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
     </div>
-    <div class="qr-text">
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </div>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Rachi</a>.
+    </footer>
   </div>
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Rachi</a>.
-  </footer>
 </body>
 </html>
