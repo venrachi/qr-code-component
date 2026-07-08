@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/frontend-mentor-qr-code-component-challenge-gL0ygiomcC](https://www.frontendmentor.io/solutions/frontend-mentor-qr-code-component-challenge-gL0ygiomcC)
+- Live Site URL: [https://venrachi.github.io/qr-code-component/](https://venrachi.github.io/qr-code-component/)
 
 <!-- TODO: fill in your Frontend Mentor solution URL and your deployed live site URL (e.g. from GitHub Pages, Vercel, or Netlify). -->
 
